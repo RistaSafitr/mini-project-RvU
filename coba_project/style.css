@@ -1,0 +1,147 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+
+  header {
+    background: #91a5fa;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 0;
+  }
+
+  .title {
+    font-weight: bold;
+    color: white;
+    }
+
+    .subtitle {
+        color: gray;
+        font-size: small;
+    }
+  
+  h1 {
+    text-align: center;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 70vh;
+  }
+
+  .center-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .form {
+    flex: 1 1 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  #output_luas,
+  #output_keliling {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #reset-btn {
+    display: block;
+    margin: 20px auto;
+  }
+   */
+
+   body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 10px;
+  }
+  
+  form label {
+    display: block;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  p {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  #reset {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #reset:hover {
+    background-color: #d32f2f;
+  }
+  
